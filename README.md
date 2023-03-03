@@ -3,7 +3,11 @@
 DiceGen generates strong passphrases that are easy to remember using the Diceware algorithm
 and the EFF long wordlist.
 
+![XKCD Secure Passwords](https://imgs.xkcd.com/comics/password_strength.png "Password Strength")
+
 ## How to run
+
+[![Run on Repl.it](https://replit.com/badge/github/fduhia/dice-gen)](https://replit.com/new/github/fduhia/dice-gen)
 
 [Clojure tools](https://clojure.org/reference/deps_and_cli) are required to run this app. You can install them from [here](https://clojure.org/guides/install_clojure)
 
@@ -22,8 +26,6 @@ e.g
 
 $ clj -x cumulus.dice-gen.generator/run :len 8
 ```
-
-![XKCD Secure Passwords](https://imgs.xkcd.com/comics/password_strength.png "Password Strength"
 
 ## License
 

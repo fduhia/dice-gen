@@ -1,0 +1,5 @@
+run = "clj -X cumulus.dice-gen.generator/run"
+
+language = "clojure"
+
+entrypoint = "src/clj/cumulus/dice_gen/generator.clj"
